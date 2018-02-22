@@ -1,0 +1,99 @@
+img# downloadDog {
+    margin: -190px 0px 0px 485px
+}
+
+.boxMid960 {
+    padding: 20px;
+    width: 920px;
+    overflow: hidden;
+}
+
+.boxMid960 p {}
+
+.boxMid960 ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.boxMid960 ul li {
+    margin-bottom: 10px;
+}
+
+h1.download {
+    width: 100%;
+    background: url (http://cdn.toontown.disney.go.com/toontown/en/download/img/download.png) no-repeat scroll;
+    margin: 0px 0px 10px 5px;
+    text-indent: -9999px;
+    _background: none;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader (src='http://cdn.toontown.disney.go.com/toontown/en/download/img/download.png');
+}
+
+.news {
+    width: 900px;
+    text-align: justify;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.newsWideImgHdr {
+    text-align: center
+}
+
+.newsWideImgBdy {
+    text-align: center
+}
+
+.newsWideTxt {
+    text-align: justify
+}
+
+.news2LImgBdy {
+    float: left
+}
+
+.news2LImgHdr {}
+
+.news2LTxt {
+    float: left;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.news2RImgBdy {
+    float: right;
+    padding: 0 0 10px 10px
+}
+
+.news2RImgHdr {}
+
+.news2RTxt {
+    text-align: left;
+    padding: 0px 0 0px 0
+}
+
+a#buttonDownload {
+    display: block;
+    width: 202px;
+    height: 48px;
+    background: transparent url(http://cdn.toontown.disney.go.com/toontown/en/download/img/btn-download-off.png) no-repeat scroll 0 0;
+    margin: 0 auto;
+}
+
+#IE6 a#buttonDownload {
+    position: relative
+}
+
+a #buttonDownload:hover {
+    background: transparent url(http://cdn.toontown.disney.go.com/toontown/en/download/img/btn-download-on.png) no-repeat scroll 0 0;
+}
+
+#IE6 #download .ttMid a {
+    text-decoration: underline;
+    position: relative;
+}
+
+html {
+	background: url(images/greybg.png) no-repeat center center fixed;
+}

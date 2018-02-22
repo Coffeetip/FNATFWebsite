@@ -1,37 +1,40 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="application-name" content="Five Nights at the Factory Website">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-square70x70logo" content="images/tiny.png">
+<meta name="msapplication-square150x150logo" content="images/square.png">
+<meta name="msapplication-wide310x150logo" content="images/wide.png">
+<meta name="msapplication-square310x310logo" content="images/large.png">
+<meta name="description" content="A Five Nights at Freddy's parody using elements from Disney's now closed Toontown Online.">
+<meta name="keywords" content="Toontown,Online,Rewritten,House,Infinite,Five,Nights,at,Freddy's,Parody,the,Factory">
 <link rel="stylesheet" type="text/css" href="style.css">
-<title>Five Nights at the Factory - Download</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-<body oncontextmenu="return false">
-<div onmousedown="return false">
-<body background="Orangettbg.jpg" bgproperties="fixed" align="center">  
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<title>Five Nights at the Factory</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<style type="text/css">
-@font-face {
-    font-family: "VTPortableRemington";
-    src: url(VTPortableRemington.ttf) format("truetype");
-}
-p.customfont { 
-    font-family: "VTPortableRemington", Verdana, Tahoma;
-}
-</style>
-<font size="10">
-<p class="customfont">Five Nights at the Factory</p>
-</font>
-<ul class="menu">
-  <li><a href="index.html" class="active"><span>Download</span></a></li>
-  <li><a href="https://github.com/loblao/five-nights-at-the-factory" target="_blank"><span>Official GitHub</span></a></li>
-  <li><a href="https://www.facebook.com/FiveNightsAtTheFactory" target="_blank"><span>Facebook Page</span></a></li>
-  <li><a href="releasenotes.html"><span>Release Notes</span></a></li>
-  <li><a href="credits.html"><span>Credits</span></a></li>
-  <li><a href="experiments.html"><span>Experiments</span></a></li>
+<body oncontextmenu="return false" style="cursor: url(images/toonmono.cur), auto;">
+<script>
+document.getElementsByTagName("body")[0].style.cursor = "url('images/toonmono.cur'), auto";
+</script>
+<div onmousedown="return false">
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<a href="index.html"><img class="displayed" src="images/logo.png"></a>
+
+<ul id="menu_wrap" class="Black">
+<li class="button"><a href="index.html">Download</a></li>
+<li class="button"><a href="https://github.com/loblao/five-nights-at-the-factory" target="_blank">Official GitHub</a></li>
+<li class="button"><a href="https://www.facebook.com/FiveNightsAtTheFactory">Facebook Page</a></li>
+<li class="button"><a href="releasenotes.html">Release Notes</a></li>
+<li class="button"><a href="credits.html">Credits</a></li>
+<li class="button"><a href="experiments.html">Experiments</a></li>
 </ul>
-</font>
-<p>
-<font face="Josefin Sans" size="5" align="center">
+
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NvaMZ2a4DhI?rel=0&amp;showinfo=0" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+<p><font face="Impress BT" size="5">
 <b>Welcome to your new job here at the Factory!<br>
 This job is fairly easy,<br>
 all you have to do is keep an eye out to make sure nobody<br>
@@ -45,19 +48,17 @@ There has been reports of strange things happening here in the Factory,<br>
 some say that they were attacked by the Skeletons of the unbuilt Cogs.<br>
 They may be hunting for you so I would be careful. Apart from that I'm sure you'll do a good job here.<br>
 Thanks for taking your time to work here at The Factory as a Security Guard.<br></b>
-</font>
-</p>
-<IMG STYLE="position:absolute; TOP:550px; LEFT:1050px; WIDTH:193px; HEIGHT:73px" SRC="flippysig.png"><br>
-<a href='http://www.mediafire.com/download/i105gttg19pgqy1' class='button'>Download</a><br><br>
-<font face="Comic Sans MS" size="4" align="center">
-<a>Version 1.0.5 as of 16/02/15 |</a>
-<a href='https://www.panda3d.org/download/panda3d-1.8.1/Panda3D-1.8.1.exe'>Game not launching? Download Panda3D 1.8.1!</a>
-</font><br>
-<a>(Direct Download)</a>
-<p>Disclaimer: I do not own any of the models/textures/sounds in the game and I am not making money off of this, I simply made this out of boredom. This was put together by the Toontown House Team and made into an MSI installer by Louie Picklezilla.
-The Mac port was made by B.D. Pinkermash, the assistant developer of Toontown Offline.</p>
-</html>
+</font></p>
 
+<center>
+<a href="download.html" class="submit submit-big">Download</a><br>
+</center>
+
+<footer>
+<p>Disclaimer: I do not own any of the models/textures/sounds in the game and I am not making money off of this, I simply made this out of boredom.<br>
+This was put together by the Toontown House Team and made into an MSI installer by Louie Picklezilla.<br>
+The Mac port was made by B.D. Pinkermash, the assistant developer of Toontown Offline.</p>
+</footer>
 <script language="javascript">
 document.onmousedown=disableclick;
 status="Right Click Disabled";
@@ -70,3 +71,6 @@ Function disableclick(event)
    }
 }
 </script>
+</div>
+</body>
+</html>

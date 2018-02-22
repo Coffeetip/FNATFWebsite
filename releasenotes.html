@@ -1,52 +1,71 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="application-name" content="Five Nights at the Factory Website">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-square70x70logo" content="images/tiny.png">
+<meta name="msapplication-square150x150logo" content="images/square.png">
+<meta name="msapplication-wide310x150logo" content="images/wide.png">
+<meta name="msapplication-square310x310logo" content="images/large.png">
+<meta name="description" content="A Five Nights at Freddy's parody using elements from Disney's now closed Toontown Online.">
+<meta name="keywords" content="Toontown,Online,Rewritten,House,Infinite,Five,Nights,at,Freddy's,Parody,the,Factory">
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Five Nights at the Factory - Release Notes</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-<body oncontextmenu="return false">
-<div onmousedown="return false">
-<body background="Orangettbg.jpg" bgproperties="fixed" align="center">  
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<style type="text/css">
-@font-face {
-    font-family: "VTPortableRemington";
-    src: url(VTPortableRemington.ttf) format("truetype");
-}
-p.customfont { 
-    font-family: "VTPortableRemington", Verdana, Tahoma;
-}
-</style>
-<font size="10">
-<p class="customfont">Five Nights at the Factory</p>
-</font>
-<ul class="menu">
-  <li><a href="index.html" class="active"><span>Download</span></a></li>
-  <li><a href="https://github.com/loblao/five-nights-at-the-factory" target="_blank"><span>Official GitHub</span></a></li>
-  <li><a href="https://www.facebook.com/FiveNightsAtTheFactory" target="_blank"><span>Facebook Page</span></a></li>
-  <li><a href="releasenotes.html"><span>Release Notes</span></a></li>
-  <li><a href="credits.html"><span>Credits</span></a></li>
-  <li><a href="experiments.html"><span>Experiments</span></a></li>
+<body oncontextmenu="return false" style="cursor: url(images/toonmono.cur), auto;">
+<script>
+document.getElementsByTagName("body")[0].style.cursor = "url('images/toonmono.cur'), auto";
+</script>
+<div onmousedown="return false">
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<a href="index.html"><img class="displayed" src="images/logo.png"></a>
+
+<ul id="menu_wrap" class="Black">
+<li class="button"><a href="index.html">Download</a></li>
+<li class="button"><a href="https://github.com/loblao/five-nights-at-the-factory" target="_blank">Official GitHub</a></li>
+<li class="button"><a href="https://www.facebook.com/FiveNightsAtTheFactory">Facebook Page</a></li>
+<li class="button"><a href="releasenotes.html">Release Notes</a></li>
+<li class="button"><a href="credits.html">Credits</a></li>
+<li class="button"><a href="experiments.html">Experiments</a></li>
 </ul>
-</font>
-<font face="Josefin Sans" size="5" align="center">
-</html>
-<font face="Josefin Sans" size="4" align="center">
+
+<font face="Josefin Sans" size="4">
 <h1><u>Release Notes</h1></u>
 </font>
-<b>V1.0.5 <font size="3"><i>(CURRENT VERSION)</i><br></font>
--Code clean-up (Thanks B.D. Pinkermash!)<br><br>
+<font face="Impress BT" size="5">
+<p><b>V1.1.4<font size="3"><i> (CURRENT VERSION)</i></font><br>
+<font color="red">Be sure to uninstall any previous versions before installing this one!</font><br>
+&#8226; Added the original Toontown cursor<br>
+&#8226; Removed hacky fullscreen mode option<br>
+&#8226; Fixed Field of View<br>
+&#8226; Fixed missing taskbar icon<br>
+&#8226; Enabled 'sync-video' by default<br><br>
+V1.1.2<br>
+&#8226; Optimizations: the game should now load up faster<br>
+&#8226; Added a Command Prompt based launcher with an option to choose fullscreen mode<br>
+&#8226; Replaced "Continue" with "Exit Game" due to the continue functionality being broken<br>
+&#8226; Removed automatic saving to "save.dat" due to it having no use<br>
+&#8226; Changed the game's icon to a more fitting image<br>
+&#8226; Changed "New Game" to "Play"<br><br>
+V1.0.7<br>
+&#8226; Updated Website shortcut to lead to new domain<br><br>
+V1.0.6<br>
+&#8226; Updated Website shortcut to lead to new website<br><br>
+V1.0.5<br>
+&#8226; Code clean-up (Thanks B.D. Pinkermash!)<br><br>
 V1.0.4<br>
--Speed hack fix<br><br>
+&#8226; Speed hack fix<br><br>
 V1.0.3<br>
--Fixed missing icon and window title (Thanks B.D. Pinkermash!)<br><br>
+&#8226; Fixed missing icon and window title (Thanks B.D. Pinkermash!)<br><br>
 V1.0.2<br>
--16:9 support for Cameras (Thanks loblao!)<br><br>
+&#8226; 16:9 support for Cameras (Thanks loblao!)<br><br>
 V1.0.1<br>
--Fixed Start Menu shortcuts not appearing under their own folder<br><br>
+&#8226; Fixed Start Menu shortcuts not appearing under their own folder<br><br>
 V1.0.0<br>
--Initial Release<br></b>
+&#8226; Initial Release<br></b></p>
 
 <script language="javascript">
 document.onmousedown=disableclick;
@@ -60,3 +79,6 @@ Function disableclick(event)
    }
 }
 </script>
+</div>
+</body>
+</html>
