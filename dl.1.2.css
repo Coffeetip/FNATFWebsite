@@ -96,4 +96,5 @@ a #buttonDownload:hover {
 
 html {
 	background: url(images/greybg.png) no-repeat center center fixed;
+    background-size: 100vw 100vh !important;
 }
