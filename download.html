@@ -15,11 +15,6 @@
 <link rel="stylesheet" href="tt.min.1.59.css" type="text/css" media="screen" charset="utf-8">
 <link rel="stylesheet" href="dl.1.2.css" type="text/css" media="screen" charset="utf-8">
 </head>
-<body oncontextmenu="return false" style="cursor: url(images/toonmono.cur), auto;">
-<div onmousedown="return false">
-<script>
-document.getElementsByTagName("body")[0].style.cursor = "url('images/toonmono.cur'), auto";
-</script>
 <table style="width:100%" bgcolor="#C21B1B">
 <tbody><tr>
 <td align="center"><b><font color="white">Hey! While you're here, want to see some pure nostalgia from Disney's Toontown Online?</font></b></td>
@@ -106,25 +101,4 @@ Windows 10<br></span></td>
 </tbody></table>
 </td></tr></tbody></table>
 </div></div></center>
-<script>
-$(document).ready(function() {
-    $('.flag').hover(function() {
-        $(this).find('img').stop().fadeIn('fast');
-    }, function() {
-        $(this).find('img').stop().fadeOut('fast');
-    });
-});
-</script>
-<script language="javascript">
-document.onmousedown=disableclick;
-status="Right Click Disabled";
-Function disableclick(event)
-{
-  if(event.button==2)
-   {
-     alert(status);
-     return false;    
-   }
-}
-</script>
 </div></body></html>

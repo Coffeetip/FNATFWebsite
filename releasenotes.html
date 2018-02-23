@@ -14,11 +14,7 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body oncontextmenu="return false" style="cursor: url(images/toonmono.cur), auto;">
-<script>
-document.getElementsByTagName("body")[0].style.cursor = "url('images/toonmono.cur'), auto";
-</script>
-<div onmousedown="return false">
+
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
 
 <a href="index.html"><img class="displayed" src="images/logo.png"></a>
@@ -67,18 +63,5 @@ V1.0.1<br>
 V1.0.0<br>
 &#8226; Initial Release<br></b></p>
 
-<script language="javascript">
-document.onmousedown=disableclick;
-status="Right Click Disabled";
-Function disableclick(event)
-{
-  if(event.button==2)
-   {
-     alert(status);
-     return false;    
-   }
-}
-</script>
-</div>
 </body>
 </html>
